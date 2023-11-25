@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We can Acess to Delete,Edit,Add a todo task and Dexcription
 
 Currently, two official plugins are available:
 
