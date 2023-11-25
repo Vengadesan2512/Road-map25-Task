@@ -1,0 +1,104 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.Title{
+  color: black;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: row;
+  display: flex;
+  font-size: x-large;
+  gap: 3rem;
+ 
+ 
+}
+.input{
+display: flex;
+color: black;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+place-items: center;
+justify-items: center;
+gap: 2rem;
+border: 1px solid black;
+
+}
+.input-bordered{
+border: 1px solid black;
+}
+/* ____________________________________________ */
+
+.flex-1{
+  color: black;
+}
+/* _____________________________________________ */
+
+
+.Status-input{
+  display: flex;
+}
+.btn-primary{
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.p{
+  font-size: large;
+  color: white;
+}
+.btn-lb{
+  display: flex;
+ flex-direction: row;
+ gap: 1rem;
+}
+.card-componentsmain{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 3rem;
+}
